@@ -233,6 +233,9 @@
                                     
                                         font-size: 1rem;
                                     }
+                                    .me-text-width{
+                                        width: 300px;
+                                    }
 
                                     .form{
                                         font-family: 'Courier New', Courier, monospace;
@@ -524,8 +527,12 @@
 
                                             .me-text{
                                                 margin: 0 auto;
-                                                font-size: 20px;
+                                                font-size: 16px;
                                             }
+                                            .me-text-width{
+                                                width: 230px;
+                                            }
+
                                             .word{
                                                 font-size: 25px;
                                             }
