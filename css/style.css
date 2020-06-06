@@ -433,7 +433,9 @@
                                     }
                                     @media (max-width: 768px) {
                                       
-                                      
+                                        .headerimg{
+                                            height: 500px;
+                                        }
                                          .headertext h1{
                                           font-size: 25px;
                                           
