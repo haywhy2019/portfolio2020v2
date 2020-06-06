@@ -3,203 +3,246 @@ full image with text on the right three images in a column
 with description underneath it two buttons below the image column -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/icon/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
-</head>
+    <link rel="stylesheet" href="./css/icon/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-   
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#about">About</a>
-              </li>
-          </ul>
-        </div> -->
-    <!-- </nav> -->
-
-
-
-
-
-    <nav class="nav navbar-expand-sm sticky-top">
-        <div class="nav1">
-            <ul id="nav"> 
-                <a href="index.html">
-                    <li>HOME</li>
-                </a>
-                <a href="#contact">
-                    <li>CONTACT</li>
-                </a>
-                <a href="#project">
-                    <li>PROJECTS</li>
-                </a>
-                <a href="#about">
-                    <li>ABOUT</li>
-                </a>
-
-            </ul>
-        </div>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark colorb">
+      <a class="logo" href="https://github.com/haywhy2019">Github</a>
+      <button
+        class="navbar-toggler navicon"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav1 navicon" id="navbarNavDropdown">
+        <ul class="navbar-nav" id="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-        <div id="">
-            <img src="images/header.jpg" alt="header-image" class='header container-fluid'>
-             
-            <div class="headertext animated slideInDown sm">
-                <h1>Hello, <span class="name"> I'm Segun Ogunsola, </span></h1>
-                <h2>I'm a fullstack developer.</h2>
-            </div>
-            <div class='h4 headerButton ml-5' id="explore">
-                <a href="#about" >
-                    <li> Explore</li>
-                </a>
-            </div>
-           
 
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-md headerimg img-fluid">
+          <!-- <img src="images/header.jpg" alt="header-image" class='img-fluid headerimg'> -->
+
+          <div class="headertext animated slideInDown sm">
+            <h1 class="">
+              Hello <br />
+              <span class="name"> I'm Segun</span>
+            </h1>
+            <h2>a MERN Stack Engineer.</h2>
+          </div>
+          <div class="h4 headerButton ml-5" id="explore">
+            <a href="#about">
+              <li>Explore</li>
+            </a>
+          </div>
         </div>
-        <section id="project">
-            <h3 class="text text-center mt-5">PROJECTS</h3>
-            <div class="flex">
-             <div class="project text ">
-                <h4 class="text">html and css</h4>
-                <a href="https://haywhy2019.github.io/google/">
-                    <li>Google homepage</li>
-                </a>           
-                <a href="https://haywhy2019.github.io/frame.ai/">
-                    <li>frame.ai</li>
-                </a>
-                <a href="https://haywhy2019.github.io/netflix/">
-                    <li>Netflix</li>
-                </a>
-                <a href="https://haywhy2019.github.io/ace-web/">
-                    <li>Ace website</li>
-                </a>
-                    <a href="https://haywhy2019.github.io/Natours/">
-                    <li>Natours (Html and Sass)</li>
-                </a>
-             </div>    
-             
-             <div class="project text">
-                <h4 class="text">Javascript</h4>
-                <a href="https://haywhy2019.github.io/cchub-cal/">
-                    <li>Calculator</li>
-                </a>
-                <a href="https://haywhy2019.github.io/quiz-game/">
-                    <li>Foodie quiz</li>
-                </a>
-                <a href="https://haywhy2019.github.io/booklist2/">
-                    <li>Book library</li>
-                </a>
-                <a href="https://haywhy2019.github.io/lundapp/">
-                    <li>lundapp</li>
-                </a>
-                <a href="https://haywhy2019.github.io/lundapp/">
-                    <li>Foodquiz</li>
-                </a>
-             </div> 
-             <div class="project text">
-                <h4 class="text">React and Mern</h4>
-                <a href="https://haywhy2019.github.io/foodquiz/">
-                    <li>foodquiz -react</li>
-                </a>
-                <a href="https://haywhy2019.github.io/to-do-list/">
-                    <li>Todo list- react</li>
-                </a>
-                 <a href="https://calm-ocean-23292.herokuapp.com/">
-                    <li>Shopping list -Mern App</li>
-                </a>
-                <a href="https://lund-last.herokuapp.com/">
-                    <li>Lund app -Mern App</li>
-                </a>
-                 <a href="https://jolly-fermat-ec0733.netlify.com/">
-                    <li>BookR -Mern App</li>
-                </a>
-             </div> 
-                
-            </div> 
-          
-        </section>
-        <section>
-            <div class="flex2 animated fadeIn bg-light container" id="about">
-                <div class="box1 "> 
-                    <div class="me" >
-                        <img src="images/me.jpg">
-                       
-                    </div>
-                    <h1 class='word'>Without challenges</h1><h3> we often don't know what we are capable of. </h3>
-                    <h3>i'm a full stack developer, i  <span class="line"> speak</span> write javascript, i'm interested in designs and how it can make users happy or angry.</h3> 
-                     <h3>i would love to learn the guitar someday,</h3><h3>and i welcome the challenge.<a href="https://drive.google.com/file/d/13BJA6etYMnsPA1xR9_EUI2pZa9gYdOlZ/view"> view resume </a></h3>
-                    <div class="social animated bounce hide">
-            
-                        <i class="fab fa-facebook-square "></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin"></i>
-            
-                    </div>
-                </div>
-                <div class="box2 ml-5">
-                    <img class='about' src="images/aboutlogo1.png">
-                    <img class='about' src="images/sass.png">
-                <div>
-                    <img class='about'src="images/aboutlogo2.png">
-                </div>
-                <div class='mt-5' id="contact">
-                <h3 class='text'>CONTACT ME</h3> 
-                <form class="form" action="MAILTO:olusegun.sola19@gmail.com" method="post" enctype="text/plain">
-                   
-                    <div class=input1>  
-                        
-                    <input class='mt-3 input' type="text" placeholder="Enter Name"><br/>
-                    <input class='mt-3 input' type="email" placeholder="Enter Email"><br/>
-                    <input class='mt-3 input' type="text" placeholder="Subject"><br/>
-                </div> 
-                    <div class='input2'>
-                    <textarea class='msg' rows='3' cols='19'  placeholder="Message" ></textarea> <br/>
-                    <input class='mt-3 button' type="submit" value="SEND">
-                </div>
-                </form>
-                </div>
-              
-               
+      </div>
+    </header>
+
+    <section id="project">
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-4 dividright">
+            <div>
+              <h3 class="text2 text-left">Skills</h3>
             </div>
 
-        </div>
+            <img class="stacklogo" src="images/mongodb.png" />
+            <p class="stacktext">MongoDb & Express</p>
+            <br />
+            <img class="stacklogo" src="images/aboutlogo2.png" />
+            <p class="stacktext">React & Nodejs</p>
+            <br />
+            <img class="stacklogo pr-5" src="images/sass.png" />
+            <p class="stacktext">Sass</p>
+            <br />
+            <img class="stacklogo pr-5" src="images/aboutlogo1.png" />
+            <p class="stacktext">Html & Css</p>
+          </div>
 
-      
+          <div class="col-md">
+            <div class="mb-4">
+              <h3 class="text2 text-left">PROJECTS</h3>
+            </div>
+            <div class="projectframe1">
+              <p class="frametext">mern</p>
+            </div>
+
+            <div class="project text mt-2">
+              <a href="https://jolly-fermat-ec0733.netlify.com/">
+                <li>BookR</li>
+              </a>
+            </div>
+          </div>
+          <div class="col-md projectframe-m">
+            <div class="projectframe2"><p class="frametext">mern</p></div>
+            <div class="project text mt-2">
+              <a href="https://haywhy2019.github.io/lundapp/">
+                <li>lundapp</li>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="projectframe3 projectframe-m">
+              <p class="frametext">React</p>
+            </div>
+            <div class="project text mt-2">
+              <a href="https://makabis.netlify.app/">
+                <li>eventme</li>
+              </a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="projectframe4 projectframe-m">
+              <p class="frametext">html&sass</p>
+            </div>
+            <div class="project text mt-2">
+              <a href="https://haywhy2019.github.io/Natours/">
+                <li>natours</li>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
- 
+    <section>
+      <div class="container animated fadeIn" id="about">
+        <div class="row d-flex align-items-center">
+          <div class="col-md">
+            <div class="me ">
+              <img src="images/me.jpg" />
+            </div>
+            <div class="me-text">
+              <h1 class="word">Without challenges</h1>
+              <h3 class="me-text">we often don't know what we are capable of.</h3>
+              <h3 class="me-text">
+                i'm a full stack mern developer, i
+                <span class="line"> speak</span> write javascript, i'm
+                interested in designs and how <br/>it can make users happy or angry.
+              </h3>
+              <h3 class="me-text">
+                i believe little things are the building <br/> blocks of great things
+              </h3>
+            </div>
+            <div class="ml-2 justify-items-center mobile">
+              <h3 class="project text mt-2">
+                <a href="https://drive.google.com/drive/u/1/my-drive">
+                 <li>view resume</li> 
+                </a>
+              </h3>
+              <div class="social animated bounce hide">
+               <a href="https://github.com/haywhy2019"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/olusegun-a-ogunsola-286668147/"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="" id="contact">
+                <h3 class="text ml-3">CONTACT ME</h3>
+                <form
+                  class="form"
+                  action="MAILTO:olusegun.sola19@gmail.com"
+                  method="post"
+                  enctype="text/plain"
+                >
+                  <div class="input1">
+                    <input
+                      class="mt-3 input"
+                      type="text"
+                      placeholder="Enter Name"
+                    /><br />
+                    <input
+                      class="mt-3 input"
+                      type="email"
+                      placeholder="Enter Email"
+                    /><br />
+                  <div class="input2">
+                    <textarea
+                      class="msg"
+                      rows="3"
+                      cols="19"
+                      placeholder="Message"
+                    ></textarea>
+                    <br />
+                    <input class="mt-3 button" type="submit" value="SEND" />
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
- 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

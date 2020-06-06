@@ -5,63 +5,98 @@
                                     }
                                     
                                     body {
-                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                        font-family: 'Courier New', Courier, monospace;
                                         font-size: 16px;
                                         font-weight: regular;
+                                        
                                     }
                                 
-                                    
+                                    .color1{
+                                        color: rgb(240, 41, 101); 
+                                    }
+
+                                    .colorb{
+                                        background-color: black;
+                                    }
+
+                                    .brand{
+                                        font-size: 25px;
+                                    }  
+                                        
+
+                                    .navicon{
+                                        border-color:rgb(240, 41, 101);
+                                        color: rgb(240, 41, 101);
+                                        fill: rgb(240, 41, 101);;
+                                    }
                                     .nav1 {
                                        
                                         background-color: black;
-                                        width: 100%;
-                                       
-                                        
+                                        width: 100vw;
+                                   
                                      
                                     }
                                     #nav{
                                      margin-left: 50px;
-                                     margin-top: 40px;
+                                  
                                     }
                                     
                                     #nav li{
                                         padding: 10px;
                                         list-style: none;                                      
                                         text-decoration: none;
-                                        font-size: 15px;
+                                        font-size: 16px;
                                         display: inline;
                                         font-family: 'Courier New', Courier, monospace;
                                         
  
                                     }
-                                    #nav li:hover {
-                                        text-decoration: underline;
-                                        color: rgb(240, 41, 101); 
-                                        
-                                    }
+                               
                                     
                                     #nav a {
                                         text-decoration: none;
                                         color: white; 
                                         
                                     }
+
+                                    #nav a:hover {
+                                        text-decoration: underline;
+                                        color: rgb(240, 41, 101); 
+                                        
+                                    }
                                   
                                     
                                  
-                                    .header{
-                                       height: 900px;
-                                       background-color: black;
-                                       position: relative;
-                                    } 
+            
+
+                                    .headerimg{
+                                        height: 600px;
+                                        background-image: url(../images/header.jpg);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                    }
                                     .headertext{
-                                        text-align: right;
+                                        text-align: left;
                                         position: absolute;
                                         top: 50%;
-                                        left: 50%;
+                                        left: 10%;
                                         transform: translate(-50%, -50%);
                                         color: white;
                                         font-family: 'Courier New', Courier, monospace;
+                                        font-weight: bolder;
+                                        font-size: 20px;
                                       
+                                    }
+
+                                    .headertext h1{
+                                        font-size: 30px;
+                                        font-weight: 800;
+                                    }
+
+                                    .headertext h2{
+                                        font-size: 20px;
+                                        font-weight: bolder;
                                     }
                                     .headerButton{
                                      
@@ -70,8 +105,10 @@
                                         width: auto;
                                         font-size: 25px;
                                         position: absolute;
-                                        top: 70%;
-                                        left: 85%;
+                                        top: 75%;
+                                        border-radius: 20px;
+                                        text-decoration: none;
+                                        left: 12%;
                                         transform: translate(-50%, -50%);
                                         color: white;
                                         font-family: 'Courier New', Courier, monospace;
@@ -93,6 +130,7 @@
                                         color:rgb(240, 41, 101); 
                                         background-color: whitesmoke;
                                         font-weight: bold;
+                                        border-radius: 20px;
                                         }
                                     .headerButton a:hover{        
                                         text-decoration: none;                                    
@@ -101,91 +139,66 @@
                                     
                                   
                                     .name{
-                                        color:  rgb(240, 41, 101); 
+                                        color:  rgb(240, 41, 101);
+                                        font-weight: 900; 
                                     }
                                     .project{
                                         text-align: left;
-                                        box-sizing: border-box;
-                                        padding: 10px;
-                                        margin-right: 10%;
+                                        display: inline-block;
                                     }
                                     .project li {
-                                        padding: 10px;
+                                        padding: 5px 15px;
+                                        border-radius: 20px;
                                         list-style: none;                                      
                                         text-decoration: none;
                                         font-size: 15px;
                                         font-family: 'Courier New', Courier, monospace;
-                                        color:  black ;
-                                      
+                                        color:  white;
+                                        background-color: rgb(240, 41, 101); 
+                                       display: inline-block;
                                     }
                                     .project li:hover{
-                                        text-decoration: underline;
+                                        text-decoration: none;
                                         color:  rgb(240, 41, 101); 
+                                        background-color: white;
+                                        border-style: solid;
+                                        border-color: rgb(240, 41, 101);
+                                    }
+
+                                    .stacklogo{
+                                        height: 50px;
+                                        margin-right: 20px;
+                                    }
+
+                                    .stacktext{
+                                        display: inline-block;
                                     }
                                    
                             
                                     
-                                    .flex {
-                                        display: flex;
-                                        text-align: center;
-                                        justify-content: space-around;
-                                    }
-                                    
-                                    
-                                    .flex2 {
-                                        display: flex;
-                                        text-align: center;
-                                        justify-content: space-around;
-                                    }
-                                    
-                                    .flex2 H3 {
-                                        font-weight: normal;
-                                        font-size: 1em;
-                                        margin: 0 15px;
-                                    }
-                                    
-                                    .flex H3 {
-                                        font-weight: normal;
-                                        font-size: 1em;
-                                        margin: 0 15px;
-                                    }
+                                   
                                     .line{
                                         text-decoration: line-through;
                                     }
                                     
-                                    .box1  {
-                                        
-                                        color: black;
-                                    }
-                                    .box1 h1{
-                                        font-family: 'Courier New', Courier, monospace;
-                                        font-weight: bold;
-                                    }
-                                    .box1 h3{
-                                        font-family: 'Courier New', Courier, monospace;
-                                        text-align: left;
-                                        margin-left: 75px;
-                                    }
-                                    
-                                    .box2 .icon {
-                                        color: rgb(53, 53, 218)
-                                    }
-                                    
-                                    .box3 .icon {
-                                        color: red;
-                                    }
-                                    
-                                    .body2 {
-                                        width: 20%;
-                                        margin: auto;
-                                    }
+                                 
                                     
                                   
                                     .social {
-                                        font-size: 30px;
-                                        text-align: center;
-                                        margin-top: 20px;
+                                        font-size: 20px;
+                                        text-align: left;
+                                      display: inline-block;
+                                     
                                     }
+
+                                    .social a {
+                                       color:  black;
+                                    }
+
+                                    .social a:hover {
+                                        color:  rgb(240, 41, 101);
+                                     }
+
                                     
                                     #so {
                                         /* display: block; */
@@ -194,12 +207,7 @@
                                     }
 
                                 
-                                    .me {
-                                        display: flex;
-                                        text-align: right;
-                                        align-items: center;
-                                        justify-content: space-around;
-                                    }
+                                  
                                     
                                     .me img {
                                         margin-top: 20px;
@@ -216,10 +224,19 @@
                                     .me h1 {
                                         color: rgb(36, 36, 100);
                                     }
+
+                                  
+
+                                    .me-text{
+                                        font-family: 'Courier New', Courier, monospace;
+                                        text-align: left;
+                                    
+                                        font-size: 1rem;
+                                    }
+
                                     .form{
                                         font-family: 'Courier New', Courier, monospace;
                                         font-weight: bold;
-                                        display: flex;
                                         color: black;
                                         
                                       
@@ -229,14 +246,14 @@
                                         background: black;
                                         text-align: center;
                                         padding: 5px 25px;
-                                        border-radius: 5px;
+                                        border-radius: 20px;
                                         color: white;
+                                        margin-left: 12px;
                                     }
                                     .button:hover{
                                         background: white; 
                                         text-align: center;
-                                        padding: 5px 25px;
-                                        border-radius: 5px;
+                                      
                                         color: black;
                                         border-style: solid;
                                         border-color: black;
@@ -244,18 +261,167 @@
                                     .input,
                                     .msg {
                                         margin-left: 10px;
+                                        width: 300px;
                                         padding: 5px;
                                        border: 0;
                                        border-bottom: 2px solid black;
                                     }
                                     .msg{
-                                        height: 110px;
+                                        height: 100px;
+                                        
                                     }
                                     .text{
                                         font-family: 'Courier New', Courier, monospace;
                                         font-weight: bold;
+                                        font-size: 20px;
                                      
                                     }
+                                    .text2{
+                                        font-family: 'Courier New', Courier, monospace;
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                        background-color:  rgb(240, 41, 101);
+                                        display: inline-block;
+                                        color: white;
+                                        padding: 10px 15px;
+                                        border-radius: 20px;
+                                     
+                                    }
+
+                                    .logo{
+                                        background-color: white;
+                                        color: rgb(240, 41, 101);
+                                        font-size: 25px;
+                                        font-weight: bolder;
+                                        padding: 5px 10px;
+                                        border-radius: 30px;
+
+                                    }
+                                    .logo:hover {
+                                        background-color: rgb(240, 41, 101);
+                                        color: white;
+                                        font-size: 25px;
+                                        font-weight: bolder;
+                                        padding: 5px 10px;
+                                        border-radius: 30px;
+                                        text-decoration: none;
+
+                                }
+
+                               
+
+                                    .dividright{
+                                        border-right-style: solid;
+                                        border-width: 5px;
+                                        border-right-color:  rgb(240, 41, 101);
+                                    }
+
+                                    .projectframe{
+                                        height: 170px;
+                                        width: 150px;
+                                        background-color: black;
+                                        z-index: 100;
+                                    }
+
+                                    .projectframe1{
+                                        height: 170px;
+                                        width: 150px;
+                                        background: linear-gradient(rgba(255, 255, 255, 0), rgba(250, 250, 250, 0)), url(/images/bookingapp.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        position: relative;
+                                    }
+                                    .projectframe1:hover{
+                                        height: 170px;
+                                        width: 150px;
+                                        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/images/bookingapp.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        z-index: 1;
+                                    }
+                                    .projectframe2{
+                                        height: 170px;
+                                        width: 150px;
+                                        background-image: url(/images/lund.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        position: relative;
+                                    }
+                                    .projectframe2:hover{
+                                        height: 170px;
+                                        width: 150px;
+                                        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/images/lund.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        z-index: 1;
+                                    }
+                                    .projectframe3{
+                                        height: 170px;
+                                        width: 150px;
+                                        background-image: url(/images/event.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        position: relative;
+                                    }
+                                    .projectframe3:hover{
+                                        height: 170px;
+                                        width: 150px;
+                                        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/images/event.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        z-index: 1;
+                                    }
+                                    .projectframe4{
+                                        height: 170px;
+                                        width: 150px;
+                                        background-image: url(/images/movies.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        position: relative;
+                                    }
+                                    .projectframe4:hover{
+                                        height: 170px;
+                                        width: 150px;
+                                        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/images/movies.PNG);
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        z-index: 1;
+                                    }
+
+                                    .projectframe-m{
+                                        margin-top: 75px;
+                                    }
+
+                                    .frametext{
+                                       position: absolute;
+                                       top: 50%;
+                                       left: 50%;
+                                       color: white;
+                                       transform: translate(-50%);
+                                       font-weight: bolder;
+                                       z-index: -2;
+                                    
+                                    }
+                                    .frametext:hover{
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%);
+                                        z-index: 10;
+                                       
+                                      
+                                     
+                                     }
+
+                            
                                     ::-moz-placeholder{
                                         color: black;
                                     }
@@ -267,22 +433,19 @@
                                     }
                                     @media (max-width: 768px) {
                                       
-                                        .header{
-                                            height: 40%;
-                                           
-                                         } 
+                                      
                                          .headertext h1{
-                                          font-size: 15px;
+                                          font-size: 25px;
                                           
                                         }
                                         .headertext h2{
-                                            font-size: 12px;
+                                            font-size: 20px;
                                             
                                           }
                                         .headertext{
-                                            text-align: right;
+                                            text-align: left;
                                             position: absolute;
-                                            top: 20%;
+                                            top: 65%;
                                             left: 20%;
                                             transform: translate(-50%, -50%);
                                             color: white;
@@ -292,34 +455,44 @@
                                         .headerButton{
                                      
                                             
-                                            color: white;
-                                            width: auto;
-                                            font-size: 10px;
+                                           
                                             position: absolute;
-                                            top: 30%;
-                                            left: 58%;
+                                            top: 90%;
+                                            left: 25%;
                                             transform: translate(-50%, -50%);
-                                            color: white;
-                                            font-family: 'Courier New', Courier, monospace;
+                                           
           
                                         }
-                                        .headerButton li{
-                                            list-style: none;
-                                            font-size: 10px;
-                                            text-decoration: none;
-                                            color: black;
-                                            background-color: white;
-                                            font-weight: bold;
-                                            }
+
+                                        .text2{
+                                            margin-top: 20px;
+                                        }
+
+                                        .projectframe1{
+                                           margin: 0 auto;
+                                           
+                                        }
+                                        .projectframe2{
+                                            margin: 0 auto;
+                                            
+                                         }
+                                         .projectframe3{
+                                            margin: 0 auto;
+                                            
+                                         }
+                                         .projectframe4{
+                                            margin: 0 auto;
+                                            
+                                         }
+                                       
                                             .project li {
                                                
-                                                list-style: none;                                      
-                                                text-decoration: none;
-                                                font-size: 10px;
-                                                font-family: 'Courier New', Courier, monospace;
-                                                color:  black ;
-                                                margin-top: 2px;
+                                             margin-left: 55px;
                                               
+                                            }
+
+                                            .projectframe-m{
+                                                margin-top: 15px;
                                             }
                                             .project{
                                                 text-align: left;
@@ -329,74 +502,33 @@
                                                
                                             }
                                             .text{
-                                                font-size: 10px;
+                                             margin-top: 20px;
+
                                                
                                             }
-                                            .text li{
-                                                font-size: 10px;
+                                          
+                                          
+                                            .me{
+                                               display: inline-block;
+                                               margin-left: 55px;
                                             }
-                                            .text h4{
-                                                text-align: left;
-                                                margin-left: 10px;
-                                            }
-                                            .text h3{
-                                                text-align: left;
-                                                margin-bottom: 10px;
-                                            }
-                                            .box1{
-                                                display: inline-block;
-                                            }
-                                            .flex2 {
-                                                display: block;
-                                                text-align: center;
-                                                justify-content: space-around;
-                                            }
-                                            .box1{
-                                               margin: 0 auto;
-                                               width: 95%;
-                                            }
-                                            .box1 h1{
-                                                font-family: 'Courier New', Courier, monospace;
-                                                font-weight: bold;
-                                                font-size: 25px;
-                                            }
-                                            .box1 h3{
-                                                font-family: 'Courier New', Courier, monospace;
-                                                text-align: left;
-                                                margin-left: 7px;
-                                            }
+                                          
                                             .me img {
-                                                margin-top: 20px;
+                                                margin-top: 10px;
                                                 border-top-left-radius: 50%;
                                                 border-bottom-right-radius: 50%;
-                                                height: 200px;
+                                                height: 150px;
                                             }
-                                            .about{
-                                               margin-top: 10px;
-                                                height: 50px;
-                                                align-self: center;
+
+                                            .me-text{
+                                                margin: 0 auto;
+                                                font-size: 20px;
                                             }
-                                            .form{
-                                                font-family: 'Courier New', Courier, monospace;
-                                                font-weight: bold;
-                                                display: block;
-                                                color: black; 
-                                                width: 80%;
-                                                margin: 0 auto  
+                                            .word{
+                                                font-size: 25px;
                                             }
-                                            .box2  {
-                                        
-                                              width: 80%;
-                                              margin: 0 auto;
-                                            }
-                                            .hide{
-                                                visibility: hidden;
-                                            }
-                                            .input2{
-                                               
-                                              width: 80%;
-                                             margin: 0 auto;
-                                            }
+                                           
+                                            
                                             .button{
                                                 background: black;
                                                 text-align: center;
@@ -404,16 +536,14 @@
                                                 border-radius: 5px;
                                                 color: white;
                                                 display: block;
-                                                width: 100%;
+                                                width: 85%;
                                             }
-                                            .msg{
-                                                margin-left: 0;
-                                                width: 100%;
-                                                margin-right: 15px;
+
+                                            .mobile{
+                                                margin-top: 20px;
+                                               left: 20px;
                                             }
+                                          
                                            
-                                            /* #nav{
-                                               visibility: hidden;
-                                               } */
-                                   
+                                        
                                       }
